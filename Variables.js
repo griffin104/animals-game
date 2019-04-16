@@ -1,3 +1,3 @@
-let canvas = document.getElementById("game");
-let ctx = canvas.getContext("2d");
+let egg = document.getElementById("egg");
 let totalRate = 0;
+let currency = 0;

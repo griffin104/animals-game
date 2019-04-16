@@ -1,3 +1,11 @@
+egg.onclick = function() {
+    currency++;
+    document.getElementById("count").innerHTML = currency.toString();
+}
+
+
+
+
 let doDraw = (function() {
 
 let  getTotalRate = function() {

@@ -1,5 +1,98 @@
-<div>
-    <canvas id = "game" width = "1280px" height = "720px"> </canvas>
-</div>
+<style>
+body {
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    position:fixed;
+    background: white;
+    color: red;
+    font-size: 30px;
+}
 
+#generators {
+    position: absolute;
+    bottom: 0;
+    top: 80%;
+    left: 0;
+    right: 0;
+    background: #5ca0d3;
+}
 
+#game {
+    position: absolute;
+    bottom: 30%;
+    top: 0;
+    left: 15%;
+    right: 15%;
+    background: #c8e6f5;
+}
+
+#menu1 {
+    position: absolute;
+    bottom: 25%;
+    top: 0;
+    left: 0;
+    right: 87%;
+    background: yellow;
+}
+
+#menu2 {
+    position: absolute;
+    bottom: 25%;
+    top: 0;
+    left: 87%;
+    right: 0;
+    background: yellow;
+}
+
+#ground {
+    position: absolute;
+    bottom: 0;
+    top: 80%;
+    left: 0;
+    right: 0;
+    background: #6d3939;
+}
+
+#grass {
+    position: absolute;
+    bottom: 85%;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: green;
+}
+
+#egg {
+    outline: none;
+    height: 250px;
+    position: absolute;
+    left: 42%;
+    bottom: -5%;
+}
+</style>
+
+<body>
+    <div id = "generators">
+        This is where generators will be bought
+    </div>
+
+    <div id = "game">
+        <div id = "count">
+            0
+        </div>
+            <div id = "ground">
+                <div id = "grass">
+                        <input type="image" src = "egg.png" id = "egg"></input>
+                </div>
+            </div>
+    </div>
+
+    <div id = "menu1">menu for something</div>
+    <div id = "menu2">menu for something else</div>
+
+</body>
+
+<script src = "Variables.js"></script>
+<script src = "Main.js"></script>
